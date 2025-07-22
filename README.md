@@ -24,14 +24,19 @@ Un bot para crear una copia de seguridad de mensajes (texto, imágenes, video) d
 
 ## Configuración
 
-1.  Crea un bot en **@BotFather** para obtener tu **TOKEN**.
-2.  Añade el bot a ambos grupos.
-3.  Instala la librería:
+1.  Crear un bot en **@BotFather** para obtener tu **TOKEN**.
+2.  Añadir el bot a ambos grupos.
+3.  Instalar la librería:
     ```bash
     pip install python-telegram-bot
     ```
-4.  Ejecuta `backup_bot.py` y usa el comando `/start` en cada grupo para asignar los roles.
+4.  Ejecutar `backup_bot.py` y usa el comando `/start` en cada grupo para asignar los roles.
 
 ## Hosting
 
 Para que el bot funcione 24/7, se recomienda usar un servicio como **PythonAnywhere**.
+
+IDEAS a agregar:
+1. manejo de mas de un grupo mediante algun identificador para agrupar ids de grupos 
+2. metodo para scrapear contenido anterior y reenviar automaticamente
+
